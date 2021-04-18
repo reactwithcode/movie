@@ -1,0 +1,226 @@
+
+/* start main */
+/*ini tambahan ujicoba*/
+
+.category {
+  margin: 56px 0;
+}
+
+.category h1 {
+  font-family: Roboto;
+  font-size: 48px;
+  line-height: 56px;
+  font-weight: 900;
+  color: #8C8989;
+  padding-bottom: 20px;
+}
+
+.homecategory-list  {
+  margin-left: 0 !important;
+}
+
+.homecategory-list a {
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 42px;
+  color: #CDCDCD;;
+}
+
+.homecategory-list a {
+  padding: 10px 20px;
+  font-family: Roboto;
+  font-size: 36px;
+  line-height: 42px;
+  color: #CDCDCD;;
+}
+
+.homecategory-list > a:hover {
+  text-decoration: none;
+  border-radius: 20px;
+  background-color: #EB507F;
+  color: #fff !important;
+}
+
+.homecategory-list > a.active {
+  border-radius: 20px;
+  background-color: #EB507F;
+  color: #fff !important;
+}
+
+
+.home-col {
+  margin-bottom: 20px;
+}
+
+.movie-card {
+  justify-content: center;
+}
+
+.movie-card > p {  
+  justify-content: center;
+
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+/* end main */
+
+/* start navbar */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700,900,300,500");
+
+.main-logo {
+  background-color: var(--torch-red);
+  border-radius: 15px;
+  width: 85px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 1em; 
+  height: fit-content; 
+}
+
+.search {
+  border-radius: 50px;
+  width: 25%;
+  /* height: auto; */
+  margin-right: 50px ;
+  margin-left: 50px;
+  font-family: Roboco;
+}
+
+.title {
+  font-size: 2.5em;
+  font-weight: 700;
+  padding-top: 5px;
+  padding-top: 10px;
+  
+}
+
+.sign-in {
+  font-size: 2em;
+  font-weight: 600;
+  background-color: transparent;
+  border: transparent;
+  color: black;
+}
+
+.sign-in:hover {
+  background-color: var(--torch-red);
+  border-radius: 10px;
+  color: white;  
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* end navbar */
+
+/* start footer */
+
+.footer {
+  position: relative;
+  max-height: fit-content;
+  width: 100%;
+  background-color: #000;
+  color: white;
+  padding: 1.5vh 1vh .5vh 1vh;
+}
+
+.brand-logo-title {
+  display: flex;
+  flex-direction: row;
+}
+
+.brand-title {
+  align-self: center;
+  padding: 1.5vh 1vh 1.5vh 1vh;
+}
+
+.brand-detail {
+  padding: 1.5vh 3.5vh 1vh .5vh;
+}
+
+.about {
+  margin-bottom: 1.5vh;
+}
+
+.download-icon{
+  display: flex;
+  padding-top: 1.5vh;
+  padding-bottom: 3vh;
+}
+.download-icon img {
+  padding-right: 1.5vh;
+}
+
+.socmed-icon {
+  display: flex;
+  padding-top: 1.5vh;
+  padding-bottom: 3vh;
+}
+.socmed-icon img {
+  padding-right: 1.5vh;
+}
+
+.line1 {
+  width: 100%;
+  margin-top: .5vh;
+  margin-bottom: 1vh;
+}
+
+/* font */
+.roboto-light-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-roboto-light);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-light-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-roboto-light);
+  font-size: var(--font-size-20px);
+  font-style: normal;
+  font-weight: 300;
+}
+.roboto-medium-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-roboto-medium);
+  font-size: var(--font-size-20px);
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-medium-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-roboto-medium);
+  font-size: var(--font-size-36px);
+  font-style: normal;
+  font-weight: 500;
+}
+.roboto-regular-normal-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-roboto-regular);
+  font-size: var(--font-size-20px);
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --font-family-roboto-light: "Roboto-Light", Helvetica;
+  --font-family-roboto-medium: "Roboto-Medium", Helvetica;
+  --font-family-roboto-regular: "Roboto-Regular", Helvetica;
+  --font-size-20px: 20px;
+  --font-size-36px: 36px;
+  --font-size-m: 18px;
+  --torch-red: rgba(254, 2, 78, 1);
+  --white: rgba(255, 255, 255, 1);
+}
+
+/* end footer */

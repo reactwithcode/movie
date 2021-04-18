@@ -1,0 +1,62 @@
+.logo {
+    padding: 15px;
+    height: 70px;
+}
+
+.sign-in-title {
+    margin: 0 auto;
+    font-size: 40px;
+    padding-top: 50px;
+}
+
+.tag{
+  letter-spacing: 0px;
+  min-height: 60px;
+  padding-top: 50px;
+  text-indent: 10%;
+  font-weight: 500;
+  font-size: 22px;
+}
+
+.sign-in-input{
+    background-color:#F0F0F0;
+    height: 50px;
+    width: 80%;
+    padding: 10px;
+    display:block ;
+    margin: 0 auto;
+    border: none;
+
+}
+
+.btn-sign-in {
+    width: 40%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.5em;
+    border: none;
+    background-color: var(--torch-red);
+    color: white;
+    font-weight: 600;
+    font-size: x-large;
+
+}
+
+.modal-sign-in {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.btn-register {
+    background-color: transparent;
+    border: transparent;
+    color: var(--torch-red);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -10px;
+    margin-left: 3px;
+
+}
